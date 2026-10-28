@@ -1,0 +1,21 @@
+{
+  "name": "edit-bay",
+  "description": "Edit videos with Claude Code: transcripts, cut lists, captions, overlays and renders with ffmpeg, plus an edit bay that learns from your notes.",
+  "owner": {
+    "name": "Fluffyattack",
+    "url": "https://github.com/Fluffyattack"
+  },
+  "plugins": [
+    {
+      "name": "edit-bay",
+      "source": "./",
+      "strict": false,
+      "description": "Gated video-editing workflow for Claude Code: word-level transcription, rough cuts, word-by-word captions, overlays, sound and final export with ffmpeg, plus reference notes and a learnings log.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "keywords": ["video", "editing", "ffmpeg", "captions", "subtitles", "whisper", "shorts", "reels", "vlog"],
+      "category": "media",
+      "skills": ["./skills/editing-videos"]
+    }
+  ]
+}

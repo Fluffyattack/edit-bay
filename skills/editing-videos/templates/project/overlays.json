@@ -1,0 +1,7 @@
+{
+  "about": "Times in seconds on the rough-cut timeline. x, y and width in canvas pixels. Paths relative to this file. Format: guides/file-formats.md in the skill.",
+  "canvas": {"width": 1080, "height": 1920},
+  "overlays": [],
+  "sounds": [],
+  "music": null
+}
